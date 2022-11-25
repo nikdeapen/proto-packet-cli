@@ -10,4 +10,5 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
-
+tokio = { version = "1.22.0", features = ["full"] }
+lex = { git = "https://github.com/nikdeapen/lex.git" }
